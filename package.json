@@ -1,31 +1,31 @@
 {
   "name": "Netflix",
   "version": "1.0.0",
-  "description": "Creates a 2 days Netflix account!",
+  "description": "Creates a temporary netflix account.",
   "scripts": {
     "start": "node main.js"
   },
   "dependencies": {
-    "axios": "^0.12.0",
-    "cheerio": "^0.20.0",
-    "selenium-webdriver": "^2.53.3"
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "coffee": "^3.3.0",
+    "nightmare": "^2.9.1"
   },
   "devDependencies": {},
   "engines": {
-    "node": "6.2.1"
+    "node": "4.6.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/anboia/netflix"
+    "url": "https://github.com/neetVeritas/netflix"
   },
   "keywords": [
     "netflix",
     "free",
-    "selenium",
-    "webdriver",
-    "experiment",
-    "cheerio"
+    "nightmare",
+    "chai",
+    "rest"
   ],
-  "author": "Andre Saboia",
+  "author": "John Nolette",
   "license": "MIT"
 }
