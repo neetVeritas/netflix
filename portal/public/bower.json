@@ -1,0 +1,25 @@
+{
+  "name": "netflix_portal",
+  "homepage": "https://github.com/neetVeritas/netflix",
+  "authors": [
+    "John Nolette <john@neetgroup.net>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "bulma": "^0.3.0",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
